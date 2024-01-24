@@ -14,7 +14,7 @@ public class SocUtil {
      *           @return copia --> variable int donde se almacenara el numero al reves.
      *           @throws EsNegatiuEX si el numero es menor a 0
      *          @see Exercicis.ExerciciUno.EsNegatiuEX#EsNegatiuEX() (Object)
-     *          @deprecated usa {@link Exercicis.ExerciciUno#esCapikua(java.lang.String)} en el seu lloc desde la version 1.35
+     *@deprecated usa el metode esCapikua en el seu lloc desde la version 1.35
      */
     public static boolean esCapicua(int numero) throws EsNegatiuEX {
 
@@ -46,8 +46,8 @@ public class SocUtil {
     }
     /**
      * Metodo para comprobar si un numero esprimo o no
-     *       @param numero numero introducido del cual vamos a comprobar si es capikua o no
-     *           @return true --> Si el numero es primo. <br> false -->Si el numero es falso.
+     *       @param numero numero introducido del cual vamos a comprobar si es primo o no
+     *           @return true --> Si el numero es primo. <br> false -->Si el numero no es primo.
      *           @throws EsNegatiuEX si el numero es menor a 0
      *          @see Exercicis.ExerciciUno.EsNegatiuEX#EsNegatiuEX() (Object)
      */
