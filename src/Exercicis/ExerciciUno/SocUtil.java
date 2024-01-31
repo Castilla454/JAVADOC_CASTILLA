@@ -1,23 +1,22 @@
 package Exercicis.ExerciciUno;
 /**
-
+ * Clase de utilidad con métodos para realizar diversas operaciones relacionadas con números.
+ *
  * @author Alejandro Castilla
  * @version 1.39, 02/28/97
-
  */
-
 public class SocUtil {
 
     /**
-     * Metodo para comprobar si un numero es capicua o no
-     *       @param numero numero introducido del cual vamos a comprobar si es capikua o no
-     *           @return copia --> variable int donde se almacenara el numero al reves.
-     *           @throws EsNegatiuEX si el numero es menor a 0
-     *          @see Exercicis.ExerciciUno.EsNegatiuEX#EsNegatiuEX() (Object)
-     *@deprecated usa el metode esCapikua en el seu lloc desde la version 1.35
+     * Comprueba si un número es capicúa o no.
+     *
+     * @param numero Número introducido para comprobar si es capicúa.
+     * @return true si el número es capicúa, false en caso contrario.
+     * @throws EsNegatiuEX si el número es menor a 0.
+     * @see Exercicis.ExerciciUno.EsNegatiuEX
+     * @deprecated Utiliza el método esCapikua en su lugar desde la versión 1.35.
      */
     public static boolean esCapicua(int numero) throws EsNegatiuEX {
-
         if (numero < 0) {
             throw new EsNegatiuEX();
         }
@@ -29,12 +28,14 @@ public class SocUtil {
         }
         return copia == numAlReves;
     }
+
     /**
-     * Metodo para comprobar si un numero es capicua o no
-     *       @param numero numero introducido del cual vamos a comprobar si es capikua o no
-     *           @return cadNum --> el numero al reves.
-     *           @throws EsNegatiuEX si el numero es menor a 0
-     *          @see Exercicis.ExerciciUno.EsNegatiuEX#EsNegatiuEX() (Object)
+     * Comprueba si un número es capicúa o no.
+     *
+     * @param numero Número introducido para comprobar si es capicúa.
+     * @return true si el número es capicúa, false en caso contrario.
+     * @throws EsNegatiuEX si el número es menor a 0.
+     * @see Exercicis.ExerciciUno.EsNegatiuEX
      */
     public static boolean esCapikua(int numero) throws EsNegatiuEX {
         if (numero < 0) {
@@ -44,15 +45,16 @@ public class SocUtil {
         String numAlReves = (new StringBuilder(cadNum)).reverse().toString();
         return cadNum.equals(numAlReves);
     }
+
     /**
-     * Metodo para comprobar si un numero esprimo o no
-     *       @param numero numero introducido del cual vamos a comprobar si es primo o no
-     *           @return true --> Si el numero es primo. <br> false -->Si el numero no es primo.
-     *           @throws EsNegatiuEX si el numero es menor a 0
-     *          @see Exercicis.ExerciciUno.EsNegatiuEX#EsNegatiuEX() (Object)
+     * Comprueba si un número es primo.
+     *
+     * @param numero Número introducido para comprobar si es primo.
+     * @return true si el número es primo, false en caso contrario.
+     * @throws EsNegatiuEX si el número es menor a 0.
+     * @see Exercicis.ExerciciUno.EsNegatiuEX
      */
     public static boolean esPrimer(int numero) throws EsNegatiuEX {
-
         if (numero < 0) {
             throw new EsNegatiuEX();
         }
@@ -66,25 +68,25 @@ public class SocUtil {
         }
         return true;
     }
+
     /**
-     * Metodo para calcular el factorial de un numero
-     *       @param numero numero introducido del cual vamos a calcular el factorial
-     *           @return fact --> factorial del numero introducido
-     *           @throws EsNegatiuEX si el numero es menor a 0
-     *          @see Exercicis.ExerciciUno.EsNegatiuEX#EsNegatiuEX() (Object)
+     * Calcula el factorial de un número.
+     *
+     * @param numero Número introducido para calcular el factorial.
+     * @return factorial del número introducido.
+     * @throws EsNegatiuEX si el número es menor a 0.
+     * @see Exercicis.ExerciciUno.EsNegatiuEX
      * @see <a href="http://www.sangakoo.com/es/temas/el-factorial-de-un-numero" >Sangaku Maths</a>
      */
     public static long getFactorial(int numero) throws EsNegatiuEX {
-
         if (numero < 0) {
             throw new EsNegatiuEX("no es pot calcular el factorial d'un número negatiu");
         }
         long fact = 1L;
         while (numero > 1) {
             fact *= numero;
-            numero --;
+            numero--;
         }
         return fact;
     }
-
 }

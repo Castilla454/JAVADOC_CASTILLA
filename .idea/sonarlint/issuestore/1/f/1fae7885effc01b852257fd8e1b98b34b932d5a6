@@ -1,0 +1,9 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…‚†ì˝ˇˇˇˇ
+E	java:S106"+Replace this use of System.out by a logger.(ö©¥Ó¯ˇˇˇˇ
+E	java:S106"+Replace this use of System.out by a logger.(å…üˆ˚ˇˇˇˇ
+S
+java:S1874"1Remove this use of "esCapicua"; it is deprecated.(å…üˆ˚ˇˇˇˇ8ÛˇßÙ’1
+E	java:S106	"+Replace this use of System.out by a logger.(›†Â◊˘ˇˇˇˇ
+>	java:S108
+")Either remove or fill this block of code.(€ÏÑÅ

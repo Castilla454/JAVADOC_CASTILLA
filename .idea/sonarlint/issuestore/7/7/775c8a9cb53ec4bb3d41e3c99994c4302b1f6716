@@ -1,0 +1,12 @@
+
+E
+java:S1604Y"(Make this anonymous inner class a lambda(ÎüÚ·8Õ‰öôÕ1
+J
+java:S1604m"(Make this anonymous inner class a lambda(”Àï®şÿÿÿÿ8Õ‰öôÕ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æŞˆúÿÿÿÿ8Ş­ÅôÕ1
+k
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(º“¬üÿÿÿÿ8ŒŠöôÕ1
+_
+java:S1126]"BReplace this if-then-else statement by a single method invocation.(”Œîè8œŠöôÕ1
+q
+java:S3252|"OUse static access with "javax.swing.WindowConstants" for "DO_NOTHING_ON_CLOSE".(‚ëûıÿÿÿÿ8½ÑµõÕ1
